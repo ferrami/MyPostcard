@@ -1,5 +1,5 @@
 * {
-	border: 1px dashed red;
+	/* border: 1px dashed red; */
 	min-height: 10px;
 }
 
@@ -21,11 +21,14 @@ body {
 .postcard-header img {
 	width: 50px;
 	height: 50px;
+	margin: 5px 10px;
 }
 
 .postcard-header h1 {
 	width: 100%;
-	height: 100%;
+	/* height: 50px; */
+	margin: auto;
+	text-align: center;
 }
 
 .postcard-body {
@@ -34,7 +37,7 @@ body {
 
 .body-left,
 .body-right {
-	padding: 10px;
+	padding: 15px;
 }
 
 .body-left p {
@@ -43,11 +46,12 @@ body {
 
 input {
 	border: none;
-	border-bottom: grey;
+	border-bottom: grey solid 2px;
 }
 
 .postcard-footer {
 	text-align: center;
+	margin: 0;
 }
 
 button {
